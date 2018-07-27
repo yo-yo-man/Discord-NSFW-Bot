@@ -3,10 +3,10 @@ const client = new Discord.Client();
 var request = require("superagent");
 
 //----------------------------------------------
-var token = "process.env.token"
-var prefix = "process.env.prefix"
-var discordbotsorgtoken = ""
-var discordpwtoken = "process.env.discordpw"
+var token = "process.env.token";
+var prefix = "process.env.prefix";
+var discordbotsorgtoken = "";
+var discordpwtoken = "process.env.discordpw";
 //----------------------------------------------
 
 client.on("ready", () => {
