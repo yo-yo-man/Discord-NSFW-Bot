@@ -6,7 +6,7 @@ var request = require("superagent");
 var token = "NDcyNDA4MDU5MzE5NDE4ODgy.Djy8CA.ZrOPNqQBs7U404pHfjnZ6h3p49I"
 var prefix = "nsfw "
 var discordbotsorgtoken = ""
-var discordpwtoken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTkwMDg5NDk0MjcxMDk4OTEiLCJyYW5kIjo3OTMsImlhdCI6MTUzMjcwMDY0N30.TQ0OkA4TcoxEWKI91K8o4jeY8K1g9f7fMAkgt2ShTQ8"
+var discordpwtoken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTkwMDg5NDk0MjcxMDk4OTEiLCJyYW5kIjo5OTQsImlhdCI6MTUzMjcwMTU5NH0._Y5HcjJlakvMLSN2Q1pYe2BXdrXn_SyYyglJp8jXTII"
 //----------------------------------------------
 
 client.on("ready", () => {
