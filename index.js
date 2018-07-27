@@ -3,10 +3,10 @@ const client = new Discord.Client();
 var request = require("superagent");
 
 //----------------------------------------------
-var token = "NDcyNDA4MDU5MzE5NDE4ODgy.Djy8CA.ZrOPNqQBs7U404pHfjnZ6h3p49I"
-var prefix = "nsfw "
+var token = "process.env.token"
+var prefix = "process.env.prefix"
 var discordbotsorgtoken = ""
-var discordpwtoken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTkwMDg5NDk0MjcxMDk4OTEiLCJyYW5kIjo5OTQsImlhdCI6MTUzMjcwMTU5NH0._Y5HcjJlakvMLSN2Q1pYe2BXdrXn_SyYyglJp8jXTII"
+var discordpwtoken = "process.env.discordpw"
 //----------------------------------------------
 
 client.on("ready", () => {
