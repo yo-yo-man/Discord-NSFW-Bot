@@ -9,8 +9,8 @@ const client = new Discord.Client();
 var request = require("superagent");
 
 //----------------------------------------------
-var token = "NDYyMzAzMjI1MDUyMTM1NDQ0.DiEafQ.eWcAw6blyyBLN4cI6zB_UzCJkAs"          //Enter Your Token Here
-var prefix = "nsfw "    //Enter Your Own Prefix
+var token = process.env.token          //Enter Your Token In The Heroku Settings Under RealConfig Vars
+var prefix = process.env.prefix    //Enter Your Own Prefix In The Heroku Settings Under RealConfig Vars
 var discordbotsorgtoken = ""
 var discordpwtoken = ""
 //----------------------------------------------
