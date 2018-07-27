@@ -1,22 +1,16 @@
-
-//author: Anish Shobith
-
-
-
-
 const Discord = require("discord.js");
 const client = new Discord.Client();
 var request = require("superagent");
 
 //----------------------------------------------
-var token = "NDYyMzAzMjI1MDUyMTM1NDQ0.Djyr8w.A_5wWvSiwtKlJM0QCZjKeiFvgDE"          //Enter Your Token 
-var prefix = "nsfw"    //Enter Your Own Prefix 
+var token = "NDYyMzAzMjI1MDUyMTM1NDQ0.Djyr8w.A_5wWvSiwtKlJM0QCZjKeiFvgDE"
+var prefix = "nsfw "
 var discordbotsorgtoken = ""
 var discordpwtoken = ""
 //----------------------------------------------
 
 client.on("ready", () => {
-    client.user.setPresence({game: {name: "nsfw help", type: 0}}); //Set Activity
+    client.user.setPresence({game: {name: "nsfw help", type: 0}});
     console.log("I am ready!");
 
     request
