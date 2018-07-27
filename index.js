@@ -9,7 +9,7 @@ const client = new Discord.Client();
 var request = require("superagent");
 
 //----------------------------------------------
-//var token = process.env.token;          //Enter Your Token In The Heroku Settings Under RealConfig Vars
+var token = "NDYyMzAzMjI1MDUyMTM1NDQ0.Djyr8w.A_5wWvSiwtKlJM0QCZjKeiFvgDE"          //Enter Your Token 
 var prefix = "nsfw"    //Enter Your Own Prefix 
 var discordbotsorgtoken = ""
 var discordpwtoken = ""
@@ -119,4 +119,4 @@ client.on("message", message => {
     }
 });
 
-client.login(process.env.token);
+client.login(token);
